@@ -1,0 +1,25 @@
+{
+  "preserved_original_inputs": 6,
+  "manual_oracles_consistent": 8,
+  "empirical_observations": 190,
+  "separate_memory_trials": 38,
+  "test_methods_passed": 9,
+  "c_extra_bound_bytes": 104,
+  "theoretical_rows": 30,
+  "strategies_with_sections": 10,
+  "implemented_strategies": [
+    2,
+    5
+  ],
+  "lean_sources": "absent; no formal verification claimed",
+  "pdf_pages": 17,
+  "tex_overfull_or_missing_glyphs": 0,
+  "tex_underfull_paragraph_warnings": 1,
+  "pdf_words_within_page_bounds": 8627,
+  "limitations": [
+    "Local runs only; course reference and actual sensor ABI unavailable",
+    "Visual inspection recorded separately",
+    "Professor approval not recorded; user authorized local work",
+    "No Lean compilation or kernel axiom audit"
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "scope": "Arquivos não rastreados visíveis ao Git; .tools e tmp ignorados",
+  "date_user_timezone": "2026-11-11 America/Sao_Paulo",
+  "git_status": "?? .gitignore\n?? README.md\n?? dados/\n?? docs/\n?? figuras/\n?? formal/\n?? learning_references/\n?? relatorios_latex/\n?? src/\n?? statement/\n?? tests/\n",
+  "files": [
+    {
+      "path": ".gitignore",
+      "state": "criado",
+      "bytes": 154,
+      "sha256": "ba62344b6fa13c7d92e8dc479d88b59ba67200d9d791e18691056a2c6b106ea4"
+    },
+    {
+      "path": "README.md",
+      "state": "criado",
+      "bytes": 6748,
+      "sha256": "06096ae11f7f5359dd911a4b508c00d065722043e752799603bc6d7696ce5259"
+    },
+    {
+      "path": "dados/README.md",
+      "state": "criado",
+      "bytes": 1440,
+      "sha256": "5917de91ed4eed42ca8c6f4958dc16c11e2a8fce7055ab025d09c459146a885e"
+    },
+    {
+      "path": "dados/auditoria_c/alloc_audit.ci",
+      "state": "criado",
+      "bytes": 839,
+      "sha256": "cd1de01c08b1297047ec056fe74b02258d8da0b3d0b10e2467e6929211c487ee"
+    },
+    {
+      "path": "dados/auditoria_c/alloc_audit.o",
+      "state": "criado",
+      "bytes": 1742,
+      "sha256": "c3458977a1aad6fb9d28068d6d54ab71450e6ba53d1b7e671499c8a34e231f48"
+    },
+    {
+      "path": "dados/auditoria_c/alloc_audit.su",
+      "state": "criado",
+      "bytes": 419,
+      "sha256": "f44d13942d1e9969deafeb65eb0c9c54ba71b49c8b5b8b1f367e290939e2c35e"
+    },
+    {
+      "path": "dados/auditoria_c/audit_fixture.ci",
+      "state": "criado",
+      "bytes": 414,
+      "sha256": "e095b3e95dae1729c681f2c93a4e1fadcc474ca510e245a4927d1a9abc1aef1a"
+    },
+    {
+      "path": "dados/auditoria_c/audit_fixture.o",
+      "state": "criado",
+      "bytes": 844,
+      "sha256": "73dd4b7673d9f4fc967807455b909a27c8b6118c29233d031a54c17af8ca095c"
+    },
+    {
+      "path": "dados/auditoria_c/audit_fixture.su",
+      "state": "criado",
+      "bytes": 71,
+      "sha256": "96eebf14e679731764d3b39017f2efb6333cce53b2310cd280cca03e066919a9"
+    },
+    {
+      "path": "dados/auditoria_c/commands.json",
+      "state": "criado",
+      "bytes": 17301,
+      "sha256": "6255e0b051bde57617086b20aaf9cfd8bffb3bad97a9d46cefcdb5bcafccc88e"
+    },
+    {
+      "path": "dados/auditoria_c/dedup.ci",
+      "state": "criado",
+      "bytes": 161,
+      "sha256": "a918381048efa83328e6ba7139707ab8926ad358263c5bc596ba2268a1300419"
+    },
+    {
+      "path": "dados/auditoria_c/dedup.o",
+      "state": "criado",
+      "bytes": 1079,
+      "sha256": "6c5484a58682b49d6f949597ab0d6b698cd903ff565b4b2bb38beb8b81ec35d6"
+    },
+    {
+      "path": "dados/auditoria_c/dedup.su",
+      "state": "criado",
+      "bytes": 58,
+      "sha256": "c4a2c6c12bdc1c168363f292921ea1919b17f929af3c00f73441c2f16d1494f1"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_disassembly.txt",
+      "state": "criado",
+      "bytes": 4832,
+      "sha256": "58d718aa008b6bfdb791428ea2d56579b5a8362a7e5afbf5f1e097864dd5f846"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_instrumented.ci",
+      "state": "criado",
+      "bytes": 161,
+      "sha256": "a918381048efa83328e6ba7139707ab8926ad358263c5bc596ba2268a1300419"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_instrumented.o",
+      "state": "criado",
+      "bytes": 1079,
+      "sha256": "6c5484a58682b49d6f949597ab0d6b698cd903ff565b4b2bb38beb8b81ec35d6"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_instrumented.su",
+      "state": "criado",
+      "bytes": 58,
+      "sha256": "c4a2c6c12bdc1c168363f292921ea1919b17f929af3c00f73441c2f16d1494f1"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_instrumented_disassembly.txt",
+      "state": "criado",
+      "bytes": 4845,
+      "sha256": "64d5f6d494c65740a2482faed2c1b6b45326d395680c6fbbae4a1e4643622cb0"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_sections.txt",
+      "state": "criado",
+      "bytes": 1109,
+      "sha256": "66ed6f16f2bdb41f1c2180c3b0c153cc7e5e6f8d14a4246802db76b10d19bee4"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_symbols.txt",
+      "state": "criado",
+      "bytes": 230,
+      "sha256": "9396f265262b2920caa841c27485e16aacc02e467e0c9ab7231d3e9e27c3873b"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_undefined.txt",
+      "state": "criado",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dados/auditoria_c/gcc_version.txt",
+      "state": "criado",
+      "bytes": 228,
+      "sha256": "87438b7ee2429bf0a85f172c569d3ae10e611821ed289ef1f83e20a19663d877"
+    },
+    {
+      "path": "dados/auditoria_c/target.txt",
+      "state": "criado",
+      "bytes": 20,
+      "sha256": "5a93bd82f1f12e8b275a5cb5df82e8bac02d52c05d53b534913d0bc49ac46b9b"
+    },
+    {
+      "path": "dados/avaliacao_bitmap.csv",
+      "state": "criado",
+      "bytes": 1635,
+      "sha256": "79370df2e68e67c61575320ee3a404dc2e3b98b287cb5b08c0baceafe8739d28"
+    },
+    {
+      "path": "dados/calculos_sympy.json",
+      "state": "criado",
+      "bytes": 2162,
+      "sha256": "fcd3be7c9d991ac405d85e082170324d5a965f4100c6de45d43178382f35be61"
+    },
+    {
+      "path": "dados/custos_teoricos.csv",
+      "state": "criado",
+      "bytes": 3708,
+      "sha256": "f0cbe701b861bd19920c5f02a80ddfc7986743b7f057345bdc2ea4ea508b89b9"
+    },
+    {
+      "path": "dados/medicoes_memoria.csv",
+      "state": "criado",
+      "bytes": 7105,
+      "sha256": "167aa86d82851b33eaac7e27df851c4c09e5d43e2a11d40e69d52ff8e1444199"
+    },
+    {
+      "path": "dados/memoria_c.json",
+      "state": "criado",
+      "bytes": 994,
+      "sha256": "540ce34da0a28054addc6d74f0fc64d156e1f1f772d9ea1884c2196ec37775de"
+    },
+    {
+      "path": "dados/metodo_benchmark.json",
+      "state": "criado",
+      "bytes": 1021,
+      "sha256": "0e8e7b19641cc98dbf2facd7d11a21643343e2b21e05780f4fb6190373be03b6"
+    },
+    {
+      "path": "dados/resultados_empiricos.csv",
+      "state": "criado",
+      "bytes": 87260,
+      "sha256": "b26a8b6898fc2ed21f762fae1bb15934207b44bc0d7e7e5c339dacbc8a73dff2"
+    },
+    {
+      "path": "dados/resumo_empirico.csv",
+      "state": "criado",
+      "bytes": 2965,
+      "sha256": "d336c7c1aa5dfcdcb595668a1e7143aa7e495b4839a0306f51fcb563303f7817"
+    },
+    {
+      "path": "dados/resumo_resultados.json",
+      "state": "criado",
+      "bytes": 674,
+      "sha256": "203c4e9e7c6de721462063cd379a1bdc705b7e0c5c78fa16757f0660380a6bab"
+    },
+    {
+      "path": "dados/testes_execucao.txt",
+      "state": "criado",
+      "bytes": 998,
+      "sha256": "fceafeb3b5b1bcc975afe62e93ff8099372303b5f07a8c488ffd96c5949562ca"
+    },
+    {
+      "path": "dados/testes_resultado.json",
+      "state": "criado",
+      "bytes": 409,
+      "sha256": "ec8a92dcc88751d19ec90ec1b5b2b795461ad3511c7a25e1b6f3fd2d183fa5e9"
+    },
+    {
+      "path": "dados/tracemalloc_numpy.json",
+      "state": "criado",
+      "bytes": 266,
+      "sha256": "ff6d4bb00c8ea16c81e5118b5833b7198b1f97b57b0f843d1a40e9926cce951f"
+    },
+    {
+      "path": "docs/ambiente.json",
+      "state": "criado",
+      "bytes": 7362,
+      "sha256": "afb54bb73d5e7854ea39459bd4157174523926d30059547a9e71128f133ed613"
+    },
+    {
+      "path": "docs/analise_teorica.md",
+      "state": "criado",
+      "bytes": 48554,
+      "sha256": "b30c285ce0bd99417dbdcc48df8a8a35d538a51d684d7ac369424027bd855ff2"
+    },
+    {
+      "path": "docs/auditoria_entrega.json",
+      "state": "criado",
+      "bytes": 785,
+      "sha256": "ef13e81134b36f54ad7f3f163291320822d55139a3c161ba802d1101d327e689"
+    },
+    {
+      "path": "docs/checklist_requisitos.md",
+      "state": "criado",
+      "bytes": 5011,
+      "sha256": "d9ec90aa2e97f781b7d7d9519f6572e1275239cb24c3d6c4f8618a099f782f9e"
+    },
+    {
+      "path": "docs/compilacao_pdf.txt",
+      "state": "criado",
+      "bytes": 2170,
+      "sha256": "28419c38f5fe8d9aefe42a74803f9201c3bc1a2aa03d63c519af46b08b0ea3b3"
+    },
+    {
+      "path": "docs/entradas_sha256.json",
+      "state": "criado",
+      "bytes": 1078,
+      "sha256": "2bbd130f1cb03b0a7a190684c799b8ed0fa7d7908151a487695202443120c850"
+    },
+    {
+      "path": "docs/historico/manifesto_etapa1.json",
+      "state": "criado",
+      "bytes": 8280,
+      "sha256": "6fe043a2923f83807a88dddbd76194ba890646e8179e72954d0d3aa39ff7bc59"
+    },
+    {
+      "path": "docs/leitura_materiais.md",
+      "state": "criado",
+      "bytes": 1829,
+      "sha256": "595b8f35aa66251449daf11f3a578bace5546214057e34d7e39dcc47bea394cb"
+    },
+    {
+      "path": "docs/plano_experimental.md",
+      "state": "criado",
+      "bytes": 5112,
+      "sha256": "413b8db21deb5a6e9293f1b686e08bf2ab492bd34bb2f4f34bf6d56ea8ebe304"
+    },
+    {
+      "path": "docs/proposta_par.md",
+      "state": "criado",
+      "bytes": 4370,
+      "sha256": "20ea87cf98c1c8b40a442de989772e4262c01dc177af6cdf1c1d32651f76a610"
+    },
+    {
+      "path": "docs/registro_execucao.md",
+      "state": "criado",
+      "bytes": 13625,
+      "sha256": "7ab5875b6e98962385aa29b451ac847fddae6f34cd7a1f39d34fac88d2d75656"
+    },
+    {
+      "path": "docs/resultados_locais.md",
+      "state": "criado",
+      "bytes": 6875,
+      "sha256": "20ab633c4df20a6aec589c47bce42b95089cf687e06fb3002fc98673269580ec"
+    },
+    {
+      "path": "docs/revisao_pdf.md",
+      "state": "criado",
+      "bytes": 3181,
+      "sha256": "81990d6b9b51565b97ad85f49211a430421bcd2c116fb9ea1408164862924da6"
+    },
+    {
+      "path": "figuras/comparacao_completa.png",
+      "state": "criado",
+      "bytes": 240668,
+      "sha256": "a751d67aec18c0c82e48c4c3bb07e0f906643f2ea1437a8ec112379ef708d201"
+    },
+    {
+      "path": "figuras/modelos_teoricos.png",
+      "state": "criado",
+      "bytes": 226224,
+      "sha256": "21b0a4b71d45feebe0ca527d830017e4b4a1824a96011216a9dd8230166e0d5e"
+    },
+    {
+      "path": "figuras/tempos_medidos.png",
+      "state": "criado",
+      "bytes": 97996,
+      "sha256": "01345c9bfcd3aed7e4e64b2803053f836574fd2900ff290973be4bd00a438146"
+    },
+    {
+      "path": "formal/README.md",
+      "state": "criado",
+      "bytes": 1462,
+      "sha256": "d73532a3aa090f22d94b6613fd839a689b9d3a7bd863ec3b8c1d53e713587520"
+    },
+    {
+      "path": "learning_references/A 01 - Aula Inaugural-1 (1).pdf",
+      "state": "preservado",
+      "bytes": 1094431,
+      "sha256": "395ef96596ee3f93fb5b2ea4b3ea3243bdfc6d976f6a98c6ed9f3e8dc7c9f089"
+    },
+    {
+      "path": "learning_references/A02 - Casos (1).pdf",
+      "state": "preservado",
+      "bytes": 239700,
+      "sha256": "e4eabefbdd37134e8d592bf447dc6b728916461622de74f28879bd96338bb6c2"
+    },
+    {
+      "path": "learning_references/A03 - Notação Assintotica.pptx (1).pdf",
+      "state": "preservado",
+      "bytes": 424232,
+      "sha256": "d508c832f5d0681ba72b6c13e7a13477d408639736ea6f7117f871291f9c6a9a"
+    },
+    {
+      "path": "learning_references/A04 - Corretude e Inducao (1).pdf",
+      "state": "preservado",
+      "bytes": 507867,
+      "sha256": "9ba8a99fd23082d991169c85164e7488bcce87d639caabf541413c6f83555e9a"
+    },
+    {
+      "path": "learning_references/notion_links.txt",
+      "state": "preservado",
+      "bytes": 252,
+      "sha256": "670babbad8fc27fecedf67fb60279c39515b90247cbd1a74d30a9b3a3e24896c"
+    },
+    {
+      "path": "relatorios_latex/preambulo.tex",
+      "state": "criado",
+      "bytes": 716,
+      "sha256": "1fa70a55a2f71f5b97ecc0070a344e20cb4373115a176056106b0a7657cfdb18"
+    },
+    {
+      "path": "relatorios_latex/relatorio.pdf",
+      "state": "criado",
+      "bytes": 661749,
+      "sha256": "fd53c16a91426ad4826c959eb46446ae7b97b11df0346d10278e0023bbf6df2d"
+    },
+    {
+      "path": "relatorios_latex/relatorio.tex",
+      "state": "criado",
+      "bytes": 58430,
+      "sha256": "06b483e6b0111e1de8b65872d815a650690c3380d42eb8dc30e73b27c3608b8e"
+    },
+    {
+      "path": "src/apoio/analise_simbolica.py",
+      "state": "criado",
+      "bytes": 8541,
+      "sha256": "ecc4023bfe33dc9a2fbeda7b715c2cabe1007554109f9f652fcb430391c29679"
+    },
+    {
+      "path": "src/apoio/auditar_entrega.py",
+      "state": "criado",
+      "bytes": 7008,
+      "sha256": "265dfe395798b1dee2eac558d3e4acadb9bb8eace8ed50b42b47bc6ba953f711"
+    },
+    {
+      "path": "src/apoio/auditar_memoria_c.py",
+      "state": "criado",
+      "bytes": 2746,
+      "sha256": "b31c92b999649425455c294e12ff8deb225e13f153e2a05628fdaf48834e8a10"
+    },
+    {
+      "path": "src/apoio/avaliar_bitmap.py",
+      "state": "criado",
+      "bytes": 3063,
+      "sha256": "d0aeb4572c78423d1883c3f9cf5277b5c45862711a3ff733868eeb501088ed65"
+    },
+    {
+      "path": "src/apoio/benchmark.py",
+      "state": "criado",
+      "bytes": 10495,
+      "sha256": "e159458504df5632ded44c5679568849aadd370f0c9aaa81ca1dcd8ad7e1f614"
+    },
+    {
+      "path": "src/apoio/compilar_c.py",
+      "state": "criado",
+      "bytes": 2740,
+      "sha256": "12168eecc900c0206e880f27a1ee68d819be775cbaefc2ff00ba5ee69f69d3b1"
+    },
+    {
+      "path": "src/apoio/executar_testes.py",
+      "state": "criado",
+      "bytes": 1137,
+      "sha256": "dc1b8b6193ab66a566fc47a6657c3440475bada4d209566fd362852a99581ec3"
+    },
+    {
+      "path": "src/apoio/gerar_relatorio.py",
+      "state": "criado",
+      "bytes": 3092,
+      "sha256": "6dd3d3a775eafe6f0a17fb8c0cf802a4767ed39be856f51cd1315c6657c0f52d"
+    },
+    {
+      "path": "src/apoio/manifestar_entrega.py",
+      "state": "criado",
+      "bytes": 2293,
+      "sha256": "5514f54a15679a7f224364de70f560572b19ac62dfad0440be51a091d513bcea"
+    },
+    {
+      "path": "src/apoio/native.py",
+      "state": "criado",
+      "bytes": 1349,
+      "sha256": "0859eea2aae7bce7a4136149415febcd3537de1610a2982f4e522681f2026c45"
+    },
+    {
+      "path": "src/apoio/preparar_compilador.ps1",
+      "state": "criado",
+      "bytes": 1300,
+      "sha256": "912306b767210c674589b98beb80c2b822946d0bf06a383c0c6e0ab85ea12b21"
+    },
+    {
+      "path": "src/apoio/preparar_ferramentas.ps1",
+      "state": "criado",
+      "bytes": 1532,
+      "sha256": "a42fec73d7e00024566b51fabd820784d50a57ceed4a4a754946a942c6087663"
+    },
+    {
+      "path": "src/apoio/quebras_codigo.lua",
+      "state": "criado",
+      "bytes": 644,
+      "sha256": "24173c7198988db7295d1775c583226dbbc8fe99e0f4192d8f1bd72d608bdf4f"
+    },
+    {
+      "path": "src/apoio/registrar_ambiente.py",
+      "state": "criado",
+      "bytes": 4311,
+      "sha256": "243cadbd2e5101e0a07978b94fce0ca0202a9da5e42b7e12a534cae56a22f655"
+    },
+    {
+      "path": "src/apoio/renderizar_pdf.py",
+      "state": "criado",
+      "bytes": 1090,
+      "sha256": "5cda721ed096a053c55d9c60cf1083c0557cb657b538f19e533c8981a7d760ea"
+    },
+    {
+      "path": "src/apoio/resumir_resultados.py",
+      "state": "criado",
+      "bytes": 15142,
+      "sha256": "26a18ece2bf46fbd9e7f3c2bdc153dd974a46dabd945e91b80beb97ffc52d36c"
+    },
+    {
+      "path": "src/datacenter_python/README.md",
+      "state": "criado",
+      "bytes": 1088,
+      "sha256": "abab1e879a08a72e14d75c928cbfdb4bd5bb7bec024b610ce92f94f9dbeab1b3"
+    },
+    {
+      "path": "src/datacenter_python/bitmap.py",
+      "state": "criado",
+      "bytes": 2739,
+      "sha256": "b7756d411b12872c90e8acb38aca16ad9904923051d8fe71abf21452137598ae"
+    },
+    {
+      "path": "src/embarcada_c/README.md",
+      "state": "criado",
+      "bytes": 954,
+      "sha256": "76803ddea85bf865819c7d512a608b0bf687041e2a18b35d14bb9105da2f1fdc"
+    },
+    {
+      "path": "src/embarcada_c/alloc_audit.c",
+      "state": "criado",
+      "bytes": 761,
+      "sha256": "14109bb35360ff9690e1fdc04d7d91ab92e86ec361c49ac80515bc1b2d62b864"
+    },
+    {
+      "path": "src/embarcada_c/alloc_hooks.h",
+      "state": "criado",
+      "bytes": 309,
+      "sha256": "d2935d2a985d81c8f75ca48f461757e8966b257de3a13cfabf21fecf5c60edfc"
+    },
+    {
+      "path": "src/embarcada_c/audit_fixture.c",
+      "state": "criado",
+      "bytes": 185,
+      "sha256": "ad88da0482f53e649b2198281fd7a829b59682b1c662122047c43daabfede53d"
+    },
+    {
+      "path": "src/embarcada_c/dedup.c",
+      "state": "criado",
+      "bytes": 1305,
+      "sha256": "16422b8794d9d0255e9d3a30ac26a466a765b429e6f4a99111c82e71dbbd69a6"
+    },
+    {
+      "path": "src/embarcada_c/dedup.h",
+      "state": "criado",
+      "bytes": 436,
+      "sha256": "e5ec4831ff6c816e5318ae8a345f608781cb1a627109b548598b9b665f8bea32"
+    },
+    {
+      "path": "statement/PjBL_Complexidade_Algoritmos-1.pdf",
+      "state": "preservado",
+      "bytes": 179827,
+      "sha256": "0286ccd4852febfed1a129c2e07d6ff925244a194557935258c81e5bba3e731a"
+    },
+    {
+      "path": "tests/README.md",
+      "state": "criado",
+      "bytes": 958,
+      "sha256": "0da9c5b4c90917f80bef7ae46b78020f9dc4c51a13322251096284344b05bda3"
+    },
+    {
+      "path": "tests/casos_manuais.json",
+      "state": "criado",
+      "bytes": 989,
+      "sha256": "ccd97d5d80191685cee42ff44dc4e0eb554f43e7821c63e16bde20e4e85f1377"
+    },
+    {
+      "path": "tests/test_deduplicacao.py",
+      "state": "criado",
+      "bytes": 4603,
+      "sha256": "60ed339e17d60305abe24ee2496b815dbc80a1f7f0f325d5458cefad803bc906"
+    }
+  ],
+  "self": "docs/manifesto_entrega.json: criado, sem hash de si próprio",
+  "created_count_including_self": 83,
+  "original_preserved_count": 6,
+  "changes_since_stage1": [
+    {
+      "path": "README.md",
+      "change": "alterado"
+    },
+    {
+      "path": "dados/README.md",
+      "change": "alterado"
+    },
+    {
+      "path": "dados/auditoria_c/alloc_audit.ci",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/alloc_audit.o",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/alloc_audit.su",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/audit_fixture.ci",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/audit_fixture.o",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/audit_fixture.su",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/commands.json",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup.ci",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup.o",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup.su",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_disassembly.txt",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_instrumented.ci",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_instrumented.o",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_instrumented.su",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_instrumented_disassembly.txt",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_sections.txt",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_symbols.txt",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/dedup_undefined.txt",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/gcc_version.txt",
+      "change": "criado"
+    },
+    {
+      "path": "dados/auditoria_c/target.txt",
+      "change": "criado"
+    },
+    {
+      "path": "dados/avaliacao_bitmap.csv",
+      "change": "criado"
+    },
+    {
+      "path": "dados/calculos_sympy.json",
+      "change": "alterado"
+    },
+    {
+      "path": "dados/custos_teoricos.csv",
+      "change": "alterado"
+    },
+    {
+      "path": "dados/medicoes_memoria.csv",
+      "change": "criado"
+    },
+    {
+      "path": "dados/memoria_c.json",
+      "change": "criado"
+    },
+    {
+      "path": "dados/metodo_benchmark.json",
+      "change": "criado"
+    },
+    {
+      "path": "dados/resultados_empiricos.csv",
+      "change": "alterado"
+    },
+    {
+      "path": "dados/resumo_empirico.csv",
+      "change": "criado"
+    },
+    {
+      "path": "dados/resumo_resultados.json",
+      "change": "criado"
+    },
+    {
+      "path": "dados/testes_execucao.txt",
+      "change": "criado"
+    },
+    {
+      "path": "dados/testes_resultado.json",
+      "change": "criado"
+    },
+    {
+      "path": "dados/tracemalloc_numpy.json",
+      "change": "criado"
+    },
+    {
+      "path": "docs/ambiente.json",
+      "change": "alterado"
+    },
+    {
+      "path": "docs/analise_teorica.md",
+      "change": "alterado"
+    },
+    {
+      "path": "docs/auditoria_entrega.json",
+      "change": "alterado"
+    },
+    {
+      "path": "docs/checklist_requisitos.md",
+      "change": "alterado"
+    },
+    {
+      "path": "docs/compilacao_pdf.txt",
+      "change": "alterado"
+    },
+    {
+      "path": "docs/historico/manifesto_etapa1.json",
+      "change": "criado"
+    },
+    {
+      "path": "docs/plano_experimental.md",
+      "change": "alterado"
+    },
+    {
+      "path": "docs/proposta_par.md",
+      "change": "alterado"
+    },
+    {
+      "path": "docs/registro_execucao.md",
+      "change": "alterado"
+    },
+    {
+      "path": "docs/resultados_locais.md",
+      "change": "criado"
+    },
+    {
+      "path": "docs/revisao_pdf.md",
+      "change": "alterado"
+    },
+    {
+      "path": "figuras/comparacao_completa.png",
+      "change": "criado"
+    },
+    {
+      "path": "figuras/modelos_teoricos.png",
+      "change": "alterado"
+    },
+    {
+      "path": "figuras/tempos_medidos.png",
+      "change": "criado"
+    },
+    {
+      "path": "relatorios_latex/preambulo.tex",
+      "change": "alterado"
+    },
+    {
+      "path": "relatorios_latex/relatorio.pdf",
+      "change": "alterado"
+    },
+    {
+      "path": "relatorios_latex/relatorio.tex",
+      "change": "alterado"
+    },
+    {
+      "path": "src/apoio/analise_simbolica.py",
+      "change": "alterado"
+    },
+    {
+      "path": "src/apoio/auditar_entrega.py",
+      "change": "alterado"
+    },
+    {
+      "path": "src/apoio/auditar_memoria_c.py",
+      "change": "criado"
+    },
+    {
+      "path": "src/apoio/avaliar_bitmap.py",
+      "change": "criado"
+    },
+    {
+      "path": "src/apoio/benchmark.py",
+      "change": "criado"
+    },
+    {
+      "path": "src/apoio/compilar_c.py",
+      "change": "criado"
+    },
+    {
+      "path": "src/apoio/executar_testes.py",
+      "change": "criado"
+    },
+    {
+      "path": "src/apoio/gerar_relatorio.py",
+      "change": "alterado"
+    },
+    {
+      "path": "src/apoio/manifestar_entrega.py",
+      "change": "alterado"
+    },
+    {
+      "path": "src/apoio/native.py",
+      "change": "criado"
+    },
+    {
+      "path": "src/apoio/preparar_compilador.ps1",
+      "change": "criado"
+    },
+    {
+      "path": "src/apoio/registrar_ambiente.py",
+      "change": "alterado"
+    },
+    {
+      "path": "src/apoio/resumir_resultados.py",
+      "change": "criado"
+    },
+    {
+      "path": "src/datacenter_python/README.md",
+      "change": "alterado"
+    },
+    {
+      "path": "src/datacenter_python/bitmap.py",
+      "change": "criado"
+    },
+    {
+      "path": "src/embarcada_c/README.md",
+      "change": "alterado"
+    },
+    {
+      "path": "src/embarcada_c/alloc_audit.c",
+      "change": "criado"
+    },
+    {
+      "path": "src/embarcada_c/alloc_hooks.h",
+      "change": "criado"
+    },
+    {
+      "path": "src/embarcada_c/audit_fixture.c",
+      "change": "criado"
+    },
+    {
+      "path": "src/embarcada_c/dedup.c",
+      "change": "criado"
+    },
+    {
+      "path": "src/embarcada_c/dedup.h",
+      "change": "criado"
+    },
+    {
+      "path": "tests/README.md",
+      "change": "alterado"
+    },
+    {
+      "path": "tests/test_deduplicacao.py",
+      "change": "criado"
+    }
+  ]
+}

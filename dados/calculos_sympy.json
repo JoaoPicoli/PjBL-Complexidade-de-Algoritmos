@@ -1,0 +1,50 @@
+{
+  "software": {
+    "python": "3.12.5",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "numpy": "2.1.2",
+    "matplotlib": "3.11.1"
+  },
+  "assumptions": "n inteiro >= 1; U=65536; n=0 tratado separadamente; hashes independentes uniformes quando usados",
+  "identities_exact": {
+    "triangular": "n**2/2 - n/2",
+    "subsets_elements": "2**n*n/2",
+    "subsets_pairs_n_ge_2": "2**n*n*(n - 1)/8",
+    "heap_series": "1",
+    "bitmap_bytes": "8192",
+    "bitmap_over_embarca": "32",
+    "bloom_continuous_bits": "65536*log(100)/log(2)**2",
+    "bloom_k7_bits_definition": "ceiling(-7*65536/log(1-(1/100)**(1/7)))",
+    "bloom_k7_bits": 628684,
+    "bloom_k7_payload_bytes": 78586,
+    "partitioned_bloom_bits": 917504,
+    "partitioned_bloom_bytes": 114688,
+    "partitioned_bloom_upper_probability": "1/128",
+    "unary_max_bytes_n_1e7": 81920000000,
+    "unary_expected_bits_divided_by_8_n_1e7": "40960625000",
+    "unary_read_bytes_n_1e7": 5368709120000000,
+    "matrix_bytes_uint8_n_1e7": 100000000000000,
+    "matrix_bytes_bits_n_1e7": 12500000000000,
+    "subsets_n50": 1125899906842624,
+    "subsets_elements_n50": 28147497671065600,
+    "subsets_8byte_index_payload_n50": 225179981368524800,
+    "subsets_pairs_n50": 344806846470553600,
+    "brute_comparisons_n_1e7": 49999995000000,
+    "c_stack_conservative_bound": "104",
+    "bitmap_marking_explicit_payload_at_chunk_65536": "204800",
+    "bitmap_emission_payload_peak_at_full_domain": "729088"
+  },
+  "approximations": {
+    "bloom_continuous_bits": "628166.385819152487",
+    "bloom_bits_per_key": "9.58505837736743907",
+    "bloom_opt_k": "6.64385618977472470",
+    "bloom_k7_probability_exponential_model": "0.00999999095156859747",
+    "bloom_256bytes_k1_probability": "0.999999999999987336",
+    "bloom_capacity_256bytes_k7": "213.490010158489273",
+    "subsets_visit_n50_days_at_1e9_per_second": "13.0312489217896296",
+    "unary_read_days_at_1e9_bytes_per_second": "62.1378370370370370",
+    "factorial_1000": "4.02387260077093774e+2567"
+  },
+  "checks": "all exact symbolic identities passed; probability 1/128 < 1/100 checked exactly"
+}

@@ -1,0 +1,250 @@
+{
+  "scope": "Arquivos não rastreados visíveis ao Git; .tools e tmp ignorados",
+  "date_user_timezone": "2026-11-11 America/Sao_Paulo",
+  "git_status": "?? .gitignore\n?? README.md\n?? dados/\n?? docs/\n?? figuras/\n?? formal/\n?? learning_references/\n?? relatorios_latex/\n?? src/\n?? statement/\n?? tests/\n",
+  "files": [
+    {
+      "path": ".gitignore",
+      "state": "criado",
+      "bytes": 154,
+      "sha256": "ba62344b6fa13c7d92e8dc479d88b59ba67200d9d791e18691056a2c6b106ea4"
+    },
+    {
+      "path": "README.md",
+      "state": "criado",
+      "bytes": 4954,
+      "sha256": "d1cf1c48b88aee27374c18ee5e27d27e2c32dd7f1358ee92ff13a5c0e62d6fff"
+    },
+    {
+      "path": "dados/README.md",
+      "state": "criado",
+      "bytes": 901,
+      "sha256": "aac2c357845996f0b454bb878a7b64c71946dc8ee71994e60c065741f0ab8c30"
+    },
+    {
+      "path": "dados/calculos_sympy.json",
+      "state": "criado",
+      "bytes": 1993,
+      "sha256": "d99b63e3a368f4626655483f8b20bc2354820e06ef9ae2ef08996ee1d5a02ce6"
+    },
+    {
+      "path": "dados/custos_teoricos.csv",
+      "state": "criado",
+      "bytes": 3639,
+      "sha256": "7ec1c0ff196ce548970d7fca16ed494ab229211fece7233b01a5e0d645b3ca83"
+    },
+    {
+      "path": "dados/resultados_empiricos.csv",
+      "state": "criado",
+      "bytes": 182,
+      "sha256": "3f35b51e2a55323e43dbad0178b930e2d3a369caff23d931b36b78e8ed2d9b8e"
+    },
+    {
+      "path": "docs/ambiente.json",
+      "state": "criado",
+      "bytes": 6310,
+      "sha256": "25c09b0d1f0778273cc0c162747a38ee2a8ea5b14ad0764916009e8c50bea504"
+    },
+    {
+      "path": "docs/analise_teorica.md",
+      "state": "criado",
+      "bytes": 38604,
+      "sha256": "ece8d57cbfc2055770a01e2ef578a14cf4c903e1dc0557203c18feced06728b3"
+    },
+    {
+      "path": "docs/auditoria_entrega.json",
+      "state": "criado",
+      "bytes": 564,
+      "sha256": "c4ac772ccae491efe1c385128a104b899aec1c73b87f9109f8ec976961a41d31"
+    },
+    {
+      "path": "docs/checklist_requisitos.md",
+      "state": "criado",
+      "bytes": 4112,
+      "sha256": "3cec59a21d0ca1eec6f7ab6c8991fc2d9218356612c0513fc3ef623e7bae32b6"
+    },
+    {
+      "path": "docs/compilacao_pdf.txt",
+      "state": "criado",
+      "bytes": 2164,
+      "sha256": "4c651ad415f921ee95e222afda3f7609ea5a221086762fc756c9a0b712a8620d"
+    },
+    {
+      "path": "docs/entradas_sha256.json",
+      "state": "criado",
+      "bytes": 1078,
+      "sha256": "2bbd130f1cb03b0a7a190684c799b8ed0fa7d7908151a487695202443120c850"
+    },
+    {
+      "path": "docs/leitura_materiais.md",
+      "state": "criado",
+      "bytes": 1829,
+      "sha256": "595b8f35aa66251449daf11f3a578bace5546214057e34d7e39dcc47bea394cb"
+    },
+    {
+      "path": "docs/plano_experimental.md",
+      "state": "criado",
+      "bytes": 3690,
+      "sha256": "243a38d5180841d5a830db94b741e0cf8aa5b824aec53f0562637e1ec9f9e87b"
+    },
+    {
+      "path": "docs/proposta_par.md",
+      "state": "criado",
+      "bytes": 3503,
+      "sha256": "4c710f740c2cad711d2c1bdc0a79346c5e0b192056612788cee60e9b683939b9"
+    },
+    {
+      "path": "docs/registro_execucao.md",
+      "state": "criado",
+      "bytes": 6330,
+      "sha256": "43bacbfa7fd2317b3472dd587a2b0167371266e8962347a3e65090d4a33029b0"
+    },
+    {
+      "path": "docs/revisao_pdf.md",
+      "state": "criado",
+      "bytes": 2256,
+      "sha256": "cf965a5a03905d176638a20b6be6b8cd306b181e10e4b712e97596d06f499269"
+    },
+    {
+      "path": "figuras/modelos_teoricos.png",
+      "state": "criado",
+      "bytes": 227150,
+      "sha256": "34226fe68e62fcae27d6a68c1d20d9d8fb7a2118ea1f56cc2270f787772a808d"
+    },
+    {
+      "path": "formal/README.md",
+      "state": "criado",
+      "bytes": 1462,
+      "sha256": "d73532a3aa090f22d94b6613fd839a689b9d3a7bd863ec3b8c1d53e713587520"
+    },
+    {
+      "path": "learning_references/A 01 - Aula Inaugural-1 (1).pdf",
+      "state": "preservado",
+      "bytes": 1094431,
+      "sha256": "395ef96596ee3f93fb5b2ea4b3ea3243bdfc6d976f6a98c6ed9f3e8dc7c9f089"
+    },
+    {
+      "path": "learning_references/A02 - Casos (1).pdf",
+      "state": "preservado",
+      "bytes": 239700,
+      "sha256": "e4eabefbdd37134e8d592bf447dc6b728916461622de74f28879bd96338bb6c2"
+    },
+    {
+      "path": "learning_references/A03 - Notação Assintotica.pptx (1).pdf",
+      "state": "preservado",
+      "bytes": 424232,
+      "sha256": "d508c832f5d0681ba72b6c13e7a13477d408639736ea6f7117f871291f9c6a9a"
+    },
+    {
+      "path": "learning_references/A04 - Corretude e Inducao (1).pdf",
+      "state": "preservado",
+      "bytes": 507867,
+      "sha256": "9ba8a99fd23082d991169c85164e7488bcce87d639caabf541413c6f83555e9a"
+    },
+    {
+      "path": "learning_references/notion_links.txt",
+      "state": "preservado",
+      "bytes": 252,
+      "sha256": "670babbad8fc27fecedf67fb60279c39515b90247cbd1a74d30a9b3a3e24896c"
+    },
+    {
+      "path": "relatorios_latex/preambulo.tex",
+      "state": "criado",
+      "bytes": 721,
+      "sha256": "a965b2c24806a7e8d3729b9f4d234d494f3e77dcb7a8070e092a52ccef90540d"
+    },
+    {
+      "path": "relatorios_latex/relatorio.pdf",
+      "state": "criado",
+      "bytes": 345362,
+      "sha256": "a15361feeb7e8d93794d5a0766bec450ad87622e9b28f036864d9f81b43490dc"
+    },
+    {
+      "path": "relatorios_latex/relatorio.tex",
+      "state": "criado",
+      "bytes": 47443,
+      "sha256": "6ceef8842ed52da8f8f90f17567b746576e42c804023681810e3ac2653c7493f"
+    },
+    {
+      "path": "src/apoio/analise_simbolica.py",
+      "state": "criado",
+      "bytes": 8288,
+      "sha256": "2cf8bc5582a58bbfa88084af3acddafd69f9bb5b3f1143f1c93ca0ad11ce91e0"
+    },
+    {
+      "path": "src/apoio/auditar_entrega.py",
+      "state": "criado",
+      "bytes": 4186,
+      "sha256": "dbc08e408c723653b165bcd9fc47b43e5b41a33f67e4bd915d989b3acc4114f4"
+    },
+    {
+      "path": "src/apoio/gerar_relatorio.py",
+      "state": "criado",
+      "bytes": 3040,
+      "sha256": "555c3fbd8c9a9707560cb4176636f9f8d3315919d91672f6495a07223ed25187"
+    },
+    {
+      "path": "src/apoio/manifestar_entrega.py",
+      "state": "criado",
+      "bytes": 1841,
+      "sha256": "b7dfb69e66dbcde1ad6b0676f266b9f0bdc41cee9947e5291d921d7c6c3fff9e"
+    },
+    {
+      "path": "src/apoio/preparar_ferramentas.ps1",
+      "state": "criado",
+      "bytes": 1532,
+      "sha256": "a42fec73d7e00024566b51fabd820784d50a57ceed4a4a754946a942c6087663"
+    },
+    {
+      "path": "src/apoio/quebras_codigo.lua",
+      "state": "criado",
+      "bytes": 644,
+      "sha256": "24173c7198988db7295d1775c583226dbbc8fe99e0f4192d8f1bd72d608bdf4f"
+    },
+    {
+      "path": "src/apoio/registrar_ambiente.py",
+      "state": "criado",
+      "bytes": 3913,
+      "sha256": "36215d3382a0b41749f523b5388d7598f41027bf677296fb4f9939442d7ba8a6"
+    },
+    {
+      "path": "src/apoio/renderizar_pdf.py",
+      "state": "criado",
+      "bytes": 1090,
+      "sha256": "5cda721ed096a053c55d9c60cf1083c0557cb657b538f19e533c8981a7d760ea"
+    },
+    {
+      "path": "src/datacenter_python/README.md",
+      "state": "criado",
+      "bytes": 176,
+      "sha256": "a4cc15df7a7521bf8836081720263aa091e0ecb7d80ee24c327af908b5fba91f"
+    },
+    {
+      "path": "src/embarcada_c/README.md",
+      "state": "criado",
+      "bytes": 184,
+      "sha256": "cb45f319c3d3848b632103a025f71536e6327b1c247c08ebb444ca6dfb7ee385"
+    },
+    {
+      "path": "statement/PjBL_Complexidade_Algoritmos-1.pdf",
+      "state": "preservado",
+      "bytes": 179827,
+      "sha256": "0286ccd4852febfed1a129c2e07d6ff925244a194557935258c81e5bba3e731a"
+    },
+    {
+      "path": "tests/README.md",
+      "state": "criado",
+      "bytes": 728,
+      "sha256": "9e2ef009503c3b8f57b28d803da54bce19d6411de5453fee2ea49b7a6a356407"
+    },
+    {
+      "path": "tests/casos_manuais.json",
+      "state": "criado",
+      "bytes": 989,
+      "sha256": "ccd97d5d80191685cee42ff44dc4e0eb554f43e7821c63e16bde20e4e85f1377"
+    }
+  ],
+  "self": "docs/manifesto_entrega.json: criado, sem hash de si próprio",
+  "created_count_including_self": 35,
+  "original_preserved_count": 6
+}

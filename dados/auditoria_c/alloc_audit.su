@@ -1,0 +1,7 @@
+src/embarcada_c/alloc_audit.c:9:15:pjbl_alloc_reset	8	static
+src/embarcada_c/alloc_audit.c:10:17:pjbl_alloc_calls	8	static
+src/embarcada_c/alloc_audit.c:11:17:pjbl_alloc_requested	8	static
+src/embarcada_c/alloc_audit.c:12:7:pjbl_malloc	8	static
+src/embarcada_c/alloc_audit.c:13:7:pjbl_calloc	8	static
+src/embarcada_c/alloc_audit.c:14:7:pjbl_realloc	8	static
+src/embarcada_c/alloc_audit.c:15:6:pjbl_free	8	static

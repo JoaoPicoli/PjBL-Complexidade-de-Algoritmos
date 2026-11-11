@@ -1,0 +1,31 @@
+n,estrategia,tipo,unidade,expressao_exata_modelo,log10_custo_aproximado,hipotese
+1000,1,teorico,comparacoes,1000*(1000-1)/2,5.69853549256200111348,prefixo completo
+1000,2,teorico,proxy_n_log2n,1000*log2(1000),3.998511482373987240561,"proxy de pior caso, nao contagem exata"
+1000,3,teorico,proxy_consultas,1000,3.0,"esperado, hashing uniforme e carga limitada"
+1000,4,teorico,proxy_n_log2d,1000*log2(1001),3.99857431697957784237,limite AVL
+1000,5,teorico,proxy_acessos,1000+65536+8192,4.873483359071543723539,"marcacao, inicializacao e varredura crescente do dominio; proxy"
+1000,6,teorico,proxy_hashes_e_inicializacao,7*1000+114688,5.085247753326724956496,"Bloom particionado k=7, D=U"
+1000,7,teorico,proxy_trabalho_esperado,1000*factorial(1000)/(factorial(2)**0*factorial(1)**1000),2570.604644222132848771,"multiconjunto balanceado, embaralhamentos independentes"
+1000,8,teorico,comparacoes_pares_subconjuntos,"binomial(1000,2)*2**(1000-2)",306.1264711652152339368,"todos os subconjuntos, todos os pares"
+1000,9,teorico,proxy_operacoes_bits,65536*1000*65537/2,12.33193649234074940349,"U passagens, media iid uniforme"
+1000,10,teorico,comparacoes_construcao,1000**2,6.0,preenchimento da matriz; nao inclui leitura triangular
+100000,1,teorico,comparacoes,100000*(100000-1)/2,9.698965661369484903407,prefixo completo
+100000,2,teorico,proxy_n_log2n,100000*log2(100000),6.220360231990343608053,"proxy de pior caso, nao contagem exata"
+100000,3,teorico,proxy_consultas,100000,5.0,"esperado, hashing uniforme e carga limitada"
+100000,4,teorico,proxy_n_log2d,100000*log2(65537),6.20412058017988501398,limite AVL
+100000,5,teorico,proxy_acessos,100000+65536+8192,5.239869819975585794678,"marcacao, inicializacao e varredura crescente do dominio; proxy"
+100000,6,teorico,proxy_hashes_e_inicializacao,7*100000+114688,5.910991319388874718565,"Bloom particionado k=7, D=U"
+100000,7,teorico,proxy_trabalho_esperado,100000*factorial(100000)/(factorial(2)**34464*factorial(1)**31072),446203.7531294074604488,"multiconjunto balanceado, embaralhamentos independentes"
+100000,8,teorico,comparacoes_pares_subconjuntos,"binomial(100000,2)*2**(100000-2)",30112.09647206816104389,"todos os subconjuntos, todos os pares"
+100000,9,teorico,proxy_operacoes_bits,65536*100000*65537/2,14.33193649234074940349,"U passagens, media iid uniforme"
+100000,10,teorico,comparacoes_construcao,100000**2,10.0,preenchimento da matriz; nao inclui leitura triangular
+10000000,1,teorico,comparacoes,10000000*(10000000-1)/2,13.69896996090656844299,prefixo completo
+10000000,2,teorico,proxy_n_log2n,10000000*log2(10000000),8.366488267668581633978,"proxy de pior caso, nao contagem exata"
+10000000,3,teorico,proxy_consultas,10000000,7.0,"esperado, hashing uniforme e carga limitada"
+10000000,4,teorico,proxy_n_log2d,10000000*log2(65537),8.20412058017988501398,limite AVL
+10000000,5,teorico,proxy_acessos,10000000+65536+8192,7.003190220326154646498,"marcacao, inicializacao e varredura crescente do dominio; proxy"
+10000000,6,teorico,proxy_hashes_e_inicializacao,7*10000000+114688,7.845809005829121790897,"Bloom particionado k=7, D=U"
+10000000,7,teorico,proxy_trabalho_esperado,10000000*factorial(10000000)/(factorial(153)**38528*factorial(152)**27008),48067067.78743507639726,"multiconjunto balanceado, embaralhamentos independentes"
+10000000,8,teorico,comparacoes_pares_subconjuntos,"binomial(10000000,2)*2**(10000000-2)",3010313.053549781530743,"todos os subconjuntos, todos os pares"
+10000000,9,teorico,proxy_operacoes_bits,65536*10000000*65537/2,16.33193649234074940349,"U passagens, media iid uniforme"
+10000000,10,teorico,comparacoes_construcao,10000000**2,14.0,preenchimento da matriz; nao inclui leitura triangular

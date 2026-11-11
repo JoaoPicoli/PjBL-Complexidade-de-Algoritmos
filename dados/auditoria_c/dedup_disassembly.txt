@@ -1,0 +1,104 @@
+
+C:\Users\PICHAU\Desktop\PjBL-Complexidade-de-Algoritmos\dados\auditoria_c\dedup.o:     file format pe-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <dedup_heapsort_u16>:
+   0:	41 55                	push   r13
+   2:	41 54                	push   r12
+   4:	55                   	push   rbp
+   5:	57                   	push   rdi
+   6:	56                   	push   rsi
+   7:	53                   	push   rbx
+   8:	49 89 c8             	mov    r8,rcx
+   b:	49 89 d5             	mov    r13,rdx
+   e:	48 83 fa 01          	cmp    rdx,0x1
+  12:	0f 86 e5 00 00 00    	jbe    fd <dedup_heapsort_u16+0xfd>
+  18:	49 89 d4             	mov    r12,rdx
+  1b:	48 89 d3             	mov    rbx,rdx
+  1e:	49 d1 ec             	shr    r12,1
+  21:	4d 85 e4             	test   r12,r12
+  24:	74 7f                	je     a5 <dedup_heapsort_u16+0xa5>
+  26:	66 2e 0f 1f 84 00 00 	cs nop WORD PTR [rax+rax*1+0x0]
+  2d:	00 00 00 
+  30:	49 83 ec 01          	sub    r12,0x1
+  34:	48 89 dd             	mov    rbp,rbx
+  37:	4b 8d 04 60          	lea    rax,[r8+r12*2]
+  3b:	48 d1 ed             	shr    rbp,1
+  3e:	0f b7 38             	movzx  edi,WORD PTR [rax]
+  41:	49 39 ec             	cmp    r12,rbp
+  44:	73 57                	jae    9d <dedup_heapsort_u16+0x9d>
+  46:	4c 89 e1             	mov    rcx,r12
+  49:	eb 2e                	jmp    79 <dedup_heapsort_u16+0x79>
+  4b:	0f 1f 44 00 00       	nop    DWORD PTR [rax+rax*1+0x0]
+  50:	49 8d 4c 88 04       	lea    rcx,[r8+rcx*4+0x4]
+  55:	0f b7 31             	movzx  esi,WORD PTR [rcx]
+  58:	66 39 f2             	cmp    dx,si
+  5b:	73 35                	jae    92 <dedup_heapsort_u16+0x92>
+  5d:	89 f2                	mov    edx,esi
+  5f:	49 89 ca             	mov    r10,rcx
+  62:	4c 01 c0             	add    rax,r8
+  65:	4c 89 d9             	mov    rcx,r11
+  68:	66 39 d7             	cmp    di,dx
+  6b:	73 30                	jae    9d <dedup_heapsort_u16+0x9d>
+  6d:	66 89 10             	mov    WORD PTR [rax],dx
+  70:	48 39 e9             	cmp    rcx,rbp
+  73:	0f 83 97 00 00 00    	jae    110 <dedup_heapsort_u16+0x110>
+  79:	48 8d 04 09          	lea    rax,[rcx+rcx*1]
+  7d:	4c 8d 48 01          	lea    r9,[rax+0x1]
+  81:	4c 8d 58 02          	lea    r11,[rax+0x2]
+  85:	4f 8d 14 48          	lea    r10,[r8+r9*2]
+  89:	41 0f b7 12          	movzx  edx,WORD PTR [r10]
+  8d:	49 39 db             	cmp    r11,rbx
+  90:	72 be                	jb     50 <dedup_heapsort_u16+0x50>
+  92:	4c 89 c9             	mov    rcx,r9
+  95:	4c 01 c0             	add    rax,r8
+  98:	66 39 d7             	cmp    di,dx
+  9b:	72 d0                	jb     6d <dedup_heapsort_u16+0x6d>
+  9d:	66 89 38             	mov    WORD PTR [rax],di
+  a0:	4d 85 e4             	test   r12,r12
+  a3:	75 8b                	jne    30 <dedup_heapsort_u16+0x30>
+  a5:	48 83 fb 01          	cmp    rbx,0x1
+  a9:	74 1e                	je     c9 <dedup_heapsort_u16+0xc9>
+  ab:	48 83 eb 01          	sub    rbx,0x1
+  af:	41 0f b7 10          	movzx  edx,WORD PTR [r8]
+  b3:	48 89 dd             	mov    rbp,rbx
+  b6:	41 0f b7 3c 58       	movzx  edi,WORD PTR [r8+rbx*2]
+  bb:	48 d1 ed             	shr    rbp,1
+  be:	66 41 89 14 58       	mov    WORD PTR [r8+rbx*2],dx
+  c3:	75 81                	jne    46 <dedup_heapsort_u16+0x46>
+  c5:	66 41 89 38          	mov    WORD PTR [r8],di
+  c9:	49 8d 40 02          	lea    rax,[r8+0x2]
+  cd:	4f 8d 0c 68          	lea    r9,[r8+r13*2]
+  d1:	ba 01 00 00 00       	mov    edx,0x1
+  d6:	66 2e 0f 1f 84 00 00 	cs nop WORD PTR [rax+rax*1+0x0]
+  dd:	00 00 00 
+  e0:	0f b7 08             	movzx  ecx,WORD PTR [rax]
+  e3:	66 41 3b 4c 50 fe    	cmp    cx,WORD PTR [r8+rdx*2-0x2]
+  e9:	74 09                	je     f4 <dedup_heapsort_u16+0xf4>
+  eb:	66 41 89 0c 50       	mov    WORD PTR [r8+rdx*2],cx
+  f0:	48 83 c2 01          	add    rdx,0x1
+  f4:	48 83 c0 02          	add    rax,0x2
+  f8:	49 39 c1             	cmp    r9,rax
+  fb:	75 e3                	jne    e0 <dedup_heapsort_u16+0xe0>
+  fd:	48 89 d0             	mov    rax,rdx
+ 100:	5b                   	pop    rbx
+ 101:	5e                   	pop    rsi
+ 102:	5f                   	pop    rdi
+ 103:	5d                   	pop    rbp
+ 104:	41 5c                	pop    r12
+ 106:	41 5d                	pop    r13
+ 108:	c3                   	ret
+ 109:	0f 1f 80 00 00 00 00 	nop    DWORD PTR [rax+0x0]
+ 110:	4c 89 d0             	mov    rax,r10
+ 113:	66 89 38             	mov    WORD PTR [rax],di
+ 116:	eb 88                	jmp    a0 <dedup_heapsort_u16+0xa0>
+ 118:	90                   	nop
+ 119:	90                   	nop
+ 11a:	90                   	nop
+ 11b:	90                   	nop
+ 11c:	90                   	nop
+ 11d:	90                   	nop
+ 11e:	90                   	nop
+ 11f:	90                   	nop

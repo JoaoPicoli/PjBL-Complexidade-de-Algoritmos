@@ -1,0 +1,32 @@
+[
+  {
+    "path": "statement/PjBL_Complexidade_Algoritmos-1.pdf",
+    "bytes": 179827,
+    "sha256": "0286ccd4852febfed1a129c2e07d6ff925244a194557935258c81e5bba3e731a"
+  },
+  {
+    "path": "learning_references/A 01 - Aula Inaugural-1 (1).pdf",
+    "bytes": 1094431,
+    "sha256": "395ef96596ee3f93fb5b2ea4b3ea3243bdfc6d976f6a98c6ed9f3e8dc7c9f089"
+  },
+  {
+    "path": "learning_references/A02 - Casos (1).pdf",
+    "bytes": 239700,
+    "sha256": "e4eabefbdd37134e8d592bf447dc6b728916461622de74f28879bd96338bb6c2"
+  },
+  {
+    "path": "learning_references/A03 - Notação Assintotica.pptx (1).pdf",
+    "bytes": 424232,
+    "sha256": "d508c832f5d0681ba72b6c13e7a13477d408639736ea6f7117f871291f9c6a9a"
+  },
+  {
+    "path": "learning_references/A04 - Corretude e Inducao (1).pdf",
+    "bytes": 507867,
+    "sha256": "9ba8a99fd23082d991169c85164e7488bcce87d639caabf541413c6f83555e9a"
+  },
+  {
+    "path": "learning_references/notion_links.txt",
+    "bytes": 252,
+    "sha256": "670babbad8fc27fecedf67fb60279c39515b90247cbd1a74d30a9b3a3e24896c"
+  }
+]

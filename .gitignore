@@ -1,0 +1,9 @@
+.tools/
+tmp/
+__pycache__/
+*.pyc
+relatorios_latex/*.aux
+relatorios_latex/*.log
+relatorios_latex/*.out
+relatorios_latex/*.toc
+relatorios_latex/*.synctex.gz

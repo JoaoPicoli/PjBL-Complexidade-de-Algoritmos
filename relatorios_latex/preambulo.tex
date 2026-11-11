@@ -1,0 +1,20 @@
+\usepackage{amsmath,amssymb}
+\usepackage{needspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\definecolor{projectblue}{HTML}{183B56}
+\titleformat{\section}{\Large\bfseries\color{projectblue}}{\thesection}{0.7em}{}
+\titlespacing*{\section}{0pt}{2.3ex plus 1ex minus .2ex}{1.2ex plus .2ex}
+\setlength{\emergencystretch}{3em}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small PjBL - Complexidade de Algoritmos}
+\fancyhead[R]{\small Par 2/5 - execução local}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\widowpenalty=10000
+\clubpenalty=10000
+\AtBeginEnvironment{longtable}{\small}
+\let\oldsection\section
+\renewcommand{\section}{\Needspace{6\baselineskip}\oldsection}
