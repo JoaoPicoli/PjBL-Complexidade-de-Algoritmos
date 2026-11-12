@@ -1,8 +1,3 @@
-"""Exact packed bitmap over uint16 values; output is strictly increasing.
-
-NumPy's unbuffered ufunc.at accumulates all masks at repeated byte indices.
-No set, sort, unique or histogram substitutes for the 8192-byte bitmap.
-"""
 from __future__ import annotations
 
 import numpy as np
