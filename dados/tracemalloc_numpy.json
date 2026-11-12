@@ -1,8 +1,0 @@
-{
-  "numpy": "2.1.2",
-  "payload_probe_bytes": 1000000,
-  "traced_current": 1000096,
-  "traced_peak": 1000096,
-  "numpy_domain": 389047,
-  "scope": "Python and registered NumPy allocations; excludes preexisting input, not a full native RSS/stack profiler"
-}

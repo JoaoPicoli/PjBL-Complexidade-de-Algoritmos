@@ -1,5 +1,0 @@
-graph: { title: "src/embarcada_c/audit_fixture.c"
-node: { title: "pjbl_allocation_fixture" label: "pjbl_allocation_fixture\nsrc/embarcada_c/audit_fixture.c:4:16\n8 bytes (static)" }
-node: { title: "pjbl_malloc" label: "pjbl_malloc\n./src/embarcada_c/alloc_hooks.h:4:7" shape : ellipse }
-edge: { sourcename: "pjbl_allocation_fixture" targetname: "pjbl_malloc" label: "src/embarcada_c/audit_fixture.c:4:55" }
-}
